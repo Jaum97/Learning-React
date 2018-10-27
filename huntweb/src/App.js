@@ -7,11 +7,12 @@ import api from './services/api';
 import logo from './logo.svg';
 import './App.css';
 import Main from './pages/main';
+import Routes from './routes'
 
 const App = () => (
   <div className="App">
     <Header />
-    <Main />
+    <Routes />
   </div>
 );
 
